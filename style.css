@@ -1,0 +1,106 @@
+body{
+    background-color: #30681a;
+}
+.burger{
+margin: 0 auto;
+width: 250px;
+top:200px;
+position: relative;
+}
+.burger .cheesey{
+position: absolute;
+top:40px;
+left: 30px;
+transform:scale(0.7,0.3);
+}
+
+
+.burger .cheesey .cheese{
+    transform-origin: 100px 100px;
+    transform: rotate(-45deg);    
+}
+
+.burger .cheesey .cheese:before, .burger .cheesey .cheese:after{
+
+content: '';
+height: 200px;
+width: 200px;
+background: yellow;
+box-shadow:  -1px 1px #e5e600, -2px 2px #e5e600,-3px 3px #e5e600, -4px 4px #e5e600, 1px -1px #e5e600 ;
+}
+
+.burger .cheesey .cheese:before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform:rotate(25deg);
+}
+
+.burger .cheesey .cheese:after{
+    position: absolute;
+    top:50px;
+    left: 50px;
+    transform:rotate(-15deg);
+
+}
+
+.burger .patty{
+    background: #732626;
+    height: 75px;
+    position: absolute;
+    left: 0;
+    top: 70px;
+    right:0;
+    border-radius: 125px 125px 125px 125px /25px 25px 25px 25px ;
+}
+
+.burger .patty:after{
+    content: '';
+    position: absolute;
+    top:0;
+    left:0;
+    height: 50px;
+    border-radius:125px/25px;
+    background:#933;
+}
+
+.burger .bun{
+    background: #dd8c3c;
+    width: 250px;
+}
+
+.burger .bun.top{
+position: absolute;
+left: 0;
+right: 0;
+top: 0;
+height: 100px;
+border-radius:125px 125px 125px 125px /75px 75px 25px 25px ;
+
+}
+
+.burger .bun.bottom{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100px;
+    height: 75px;
+    border-radius:125px 125px 125px 125px /25px 25px 35px 35px;
+}
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
